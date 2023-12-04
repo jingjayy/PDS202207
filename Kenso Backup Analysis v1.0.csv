@@ -1,0 +1,69 @@
+,,,,,,,,,Veeam Backup &Replication,,,,
+,Backup Job,Average,,,,Retention Period,Days,,,,,,
+,,Hours,,,,Daily Backup,30,,,,,,
+,Daily Backup (Incremental),2:30hrs- 3:30hrs,,,,Replication to PI,7,,,,,,
+,Daily Backup (Full),8hrs-9hrs,,,,,,,,,,,
+,Critical Replication,4hrs-7hrs,,,,Day 1 to Day 6,Daily Backup (Incremental),,2 to 4 hrs job completed,,,,
+,Non Critical Replication,0.5hrs -1hr,,,,Day 7,Daily Backup (Full),,8 to 9 hrs job completed,,,,
+,,,,,,,,,,,,,
+,,,,,,Job,Average,,,,,,
+,Backup Start,8:00PM,,,,Daily Backup Speed,1.4GB/Min,1400MB/Min,23.3MB/s,,,,
+,Backup End,8:00AM,,,,Critical Replication,0.5GB/Min,500MB/Min,8.3MB/s,,,,
+,,,,,,Non Critical Replication,0.2GB/Min,200MB/Min,3.3MB/s,,,,
+,,,,,,,,,,,,,
+,Job,Start Date,Start Time,End Date,End Time,Duration (hrs),Duration (Min),Total Size (GB),Average (GB)/Min,Processing Rate,Processed,Read (GB),Bottleneck
+,Daily Backup (Incremental),30/9/2023,10:00PM,1/10/2023,12:28AM,2.28,148,210.3,1.42,97MB/s,16.8TB,627.6,Target
+,Daily Backup (Incremental),1/10/2023,10:00PM,2/10/2023,12:58AM,2.58,178,232.3,1.31,76MB/s,16.8TB,642,Target
+,Daily Backup (Incremental),2/10/2023,10:00PM,3/10/2023,1:34AM,3.34,214,289.8,1.35,70MB/s,16.8TB,749.6,Target
+,Daily Backup (Incremental),3/10/2023,10:00PM,4/10/2023,1:36AM,3.36,216,308.1,1.43,80MB/s,16.8TB,780.5,Target
+,Daily Backup (Incremental),4/10/2023,10:00PM,5/10/2023,1:32AM,3.32,212,327.2,1.54,76MB/s,16.8TB,809.6,Target
+,Daily Backup (Incremental),6/10/2023,8:00PM,6/10/2023,11:30PM,3.3,210,308.4,1.47,75MB/s,16.8TB,778.8,Target
+,Daily Backup (Full),7/10/2023,8:00PM,8/10/2023,4:43AM,8.43,523,238.6,0.46,92MB/s,16.8TB,658.3,Target
+,Daily Backup (Incremental),8/10/2023,8:00PM,8/10/2023,11:06PM,3.06,186,223.2,1.20,69MB/s,16.8TB,624.5,Target
+,Daily Backup (Incremental),9/10/2023,8:00PM,9/10/2023,11:35PM,3.35,215,295,1.37,71MB/s,16.8TB,753.4,Target
+,Daily Backup (Incremental),10/10/2023,8:00PM,10/10/2023,11:27PM,3.27,207,313.3,1.51,74MB/s,16.8TB,783.2,Target
+,Daily Backup (Incremental),11/10/2023,8:00PM,11/10/2023,11:45PM,3.44,224,342.6,1.53,73MB/s,16.8TB,830,Target
+,Daily Backup (Incremental),12/10/2023,8:00PM,12/10/2023,11:28PM,3.28,208,332.1,1.60,80MB/s,16.8TB,815.9,Target
+,Daily Backup (Incremental),13/10/2023,8:00PM,13/10/2023,11:20PM,3.2,200,330.9,1.65,80MB/s,16.8TB,805.6,Target
+,Daily Backup (Full),14/10/2023,7:08PM,15/10/2023,3:33AM,8.24,504,241,0.48,91Mb/s,16.8TB,657.4,Target
+,Daily Backup (Incremental),15/10/2023,6:42PM,15/10/2023,9:48PM,3.06,186,223.1,1.20,69MB/s,16.8TB,626.9,Target
+,Daily Backup (Incremental),16/10/2023,8:00PM,16/10/2023,11:21PM,3.21,201,304.1,1.51,76MB/s,16.8TB,769.3,Target
+,Daily Backup (Incremental),17/10/2023,8:00PM,17/10/2023,11:24PM,3.24,204,309.4,1.52,76MB/s,16.8TB,780.9,Target
+,Daily Backup (Incremental),18/10/2023,8:00PM,18/10/2023,11:09PM,3.09,189,310.5,1.64,83MB/s,16.8TB,778.6,Target
+,Daily Backup (Incremental),19/10/2023,8:00PM,19/10/2023,11:04PM,3.04,184,316.4,1.72,85MB/s,16.8TB,786.1,Target
+,Daily Backup (Incremental),20/10/2023,8:00PM,20/10/2023,11:17PM,3.17,197,331.1,1.68,84MB/s,16.8TB,811.7,Target
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Job,Start Date,Start Time,End Date,End Time,Duration (hrs),Duration (Min),Total Size (GB),Average (GB)/Min,Processing Rate,Processed,Read (GB),Bottleneck
+,Critical Replication,1/10/2023,12:29AM,1/10/2023,4:53AM,4.23,263,129.7,0.49,49MB/s,13.6TB,129.7,Network
+,Non Critical Replication,1/10/2023,4:53AM,1/10/2023,5:24AM,0.31,31,4.4,0.14,245MB/s,4.4TB,163.8,Source
+,Critical Replication,2/10/2023,12:58AM,2/10/2023,6:05AM,5.06,306,145,0.47,48MB/s,13.6TB,636.6,Network
+,Non Critical Replication,2/10/2023,6:05AM,2/10/2023,6:48AM,0.35,35,6,0.17,193MB/s,4.4TB,165.1,Source
+,Critical Replication,3/10/2023,1:34AM,3/10/2023,7:36AM,6,360,174.5,0.48,44MB/s,13.6TB,708.1,Network
+,Non Critical Replication,3/10/2023,7:36AM,3/10/2023,8:13AM,0.36,36,8.3,0.23,167MB/s,4.4TB,165.2,Source
+,Critical Replication,4/10/2023,1:36AM,4/10/2023,7:30AM,5.53,353,165.7,0.47,45MB/s,13.6TB,705.6,Network
+,Non Critical Replication,4/10/2023,8:04AM,4/10/2023,7:58AM,0.33,34,5.2,0.15,216MB/s,4.4TB,165.1,Source
+,Critical Replication,5/10/2023,1:32AM,5/10/2023,7:23AM,5.51,351,177.4,0.51,44MB/s,13.6TB,705.6,Network
+,Non Critical Replication,5/10/2023,7:24AM,5/10/2023,7:58AM,0.3347,34,6.3,0.19,190MB/s,4.4TB,166.4,Source
+,Critical Replication,6/10/2023,11:30PM,7/10/2023,7:03AM,7.32,452,235,0.52,37MB/s,13.6TB,810.2,Network
+,Non Critical Replication,7/10/2023,7:03AM,7/10/2023,7:35AM,0.32,32,7.7,0.24,218MB/s,4.4TB,166.3,Network
+,Critical Replication,13/10/2023,11:50PM,14/10/2023,12:46PM,13,780,467.6,0.60,29MB/s,13.6TB,1200,Network
+,Non Critical Replication,14/10/2023,12:47PM,14/10/2023,1:41PM,0.54,54,22.4,0.41,86MB/s,4.4TB,175.4,Network
+,Critical Replication,15/10/2023,3:33AM,15/10/2023,8:35AM,5,300,143,0.48,47MB/s,13.6TB,617,Network
+,Non Critical Replication,15/10/2023,8:36AM,15/10/2023,9:08AM,0.32,32,5.8,0.18,222MB/s,4.4TB,161.6,Source
+,Non Critical Replication,24/10/2023,11:29PM,25/10/2023,12:40AM,1.11,71,30.3,0.43,64MB/s,4.4TB,188.2,Source
+,Non Critical Replication,25/10/2023,11:11PM,25/10/2023,11:40PM,0.28,28,4.7,0.17,274MB/s,4.4TB,164,Source
+,Non Critical Replication,26/10/2023,11:23PM,27/10/2023,12:17AM,0.53,53,30.3,0.57,114MB/s,4.4TB,168.4,Source
+,Critical Replication,27/10/2023,11:50PM,28/10/2023,3:24PM,15.34,934,551.7,0.59,27MB/s,13.6TB,1300,Network
+,Non Critical Replication,27/10/2023,11:50PM,28/10/2023,2:46PM,14.55,895,8.9,0.01,98MB/s,4.4TB,167.8,Network
+,Critical Replication,29/10/2023,4:56AM,29/10/2023,10:08AM,5.11,311,148.1,0.48,44MB/s,13.6TB,608.9,Network
+,Non Critical Replication,29/10/2023,4:56AM,29/10/2023,9:21AM,4.25,265,5.1,0.02,110MB/s,4.4TB,168,Source
+,Critical Replication,30/10/2023,12:21AM,30/10/2023,5:29AM,5.08,308,142.1,0.46,45MB/s,13.6TB,587.8,Network
+,Non Critical Replication,30/10/2023,12:21AM,30/10/2023,4:28AM,4.06,246,5.6,0.02,142MB/s,4.4TB,167.5,Source
+,Critical Replication,30/10/2023,11:35PM,31/10/2023,5:33AM,5.57,357,169.8,0.48,42MB/s,13.6TB,655.9,Network
+,Non Critical Replication,31/10/2023,5:33AM,31/10/2023,6:20AM,0.46,46,6.9,0.15,182MB/s,4.4TB,168.3,Source
