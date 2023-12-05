@@ -1,0 +1,21 @@
+Job,Start Date,Start Time,End Date,End Time,Duration (hrs),Duration (Min),Total Size (GB),Average (GB)/Min,Processing Rate,Processed,Read (GB),Bottleneck
+Daily Backup (Incremental),30/9/2023,10:00PM,1/10/2023,12:28AM,2.28,148,210.3,1.42,97MB/s,16.8TB,627.6,Target
+Daily Backup (Incremental),1/10/2023,10:00PM,2/10/2023,12:58AM,2.58,178,232.3,1.31,76MB/s,16.8TB,642,Target
+Daily Backup (Incremental),2/10/2023,10:00PM,3/10/2023,1:34AM,3.34,214,289.8,1.35,70MB/s,16.8TB,749.6,Target
+Daily Backup (Incremental),3/10/2023,10:00PM,4/10/2023,1:36AM,3.36,216,308.1,1.43,80MB/s,16.8TB,780.5,Target
+Daily Backup (Incremental),4/10/2023,10:00PM,5/10/2023,1:32AM,3.32,212,327.2,1.54,76MB/s,16.8TB,809.6,Target
+Daily Backup (Incremental),6/10/2023,8:00PM,6/10/2023,11:30PM,3.3,210,308.4,1.47,75MB/s,16.8TB,778.8,Target
+Daily Backup (Full),7/10/2023,8:00PM,8/10/2023,4:43AM,8.43,523,238.6,0.46,92MB/s,16.8TB,658.3,Target
+Daily Backup (Incremental),8/10/2023,8:00PM,8/10/2023,11:06PM,3.06,186,223.2,1.2,69MB/s,16.8TB,624.5,Target
+Daily Backup (Incremental),9/10/2023,8:00PM,9/10/2023,11:35PM,3.35,215,295,1.37,71MB/s,16.8TB,753.4,Target
+Daily Backup (Incremental),10/10/2023,8:00PM,10/10/2023,11:27PM,3.27,207,313.3,1.51,74MB/s,16.8TB,783.2,Target
+Daily Backup (Incremental),11/10/2023,8:00PM,11/10/2023,11:45PM,3.44,224,342.6,1.53,73MB/s,16.8TB,830,Target
+Daily Backup (Incremental),12/10/2023,8:00PM,12/10/2023,11:28PM,3.28,208,332.1,1.6,80MB/s,16.8TB,815.9,Target
+Daily Backup (Incremental),13/10/2023,8:00PM,13/10/2023,11:20PM,3.2,200,330.9,1.65,80MB/s,16.8TB,805.6,Target
+Daily Backup (Full),14/10/2023,7:08PM,15/10/2023,3:33AM,8.24,504,241,0.48,91Mb/s,16.8TB,657.4,Target
+Daily Backup (Incremental),15/10/2023,6:42PM,15/10/2023,9:48PM,3.06,186,223.1,1.2,69MB/s,16.8TB,626.9,Target
+Daily Backup (Incremental),16/10/2023,8:00PM,16/10/2023,11:21PM,3.21,201,304.1,1.51,76MB/s,16.8TB,769.3,Target
+Daily Backup (Incremental),17/10/2023,8:00PM,17/10/2023,11:24PM,3.24,204,309.4,1.52,76MB/s,16.8TB,780.9,Target
+Daily Backup (Incremental),18/10/2023,8:00PM,18/10/2023,11:09PM,3.09,189,310.5,1.64,83MB/s,16.8TB,778.6,Target
+Daily Backup (Incremental),19/10/2023,8:00PM,19/10/2023,11:04PM,3.04,184,316.4,1.72,85MB/s,16.8TB,786.1,Target
+Daily Backup (Incremental),20/10/2023,8:00PM,20/10/2023,11:17PM,3.17,197,331.1,1.68,84MB/s,16.8TB,811.7,Target
